@@ -52,20 +52,25 @@
 <p>Talk to me!  Talk to each other!  Talk to...the world?</p>
 <p class="subtext"><em>I made this using the tutorial <a href="http://www.htmlgoodies.com/beyond/cgi/article.php/3470121">on HTML Goodies.</a>It may be incorrect and if so please let me know through alpine!</em></p>
 </br>
-<form Action="~zach/cgi-bin/bbs.pl" method=post>
-<INPUT NAME="name" Size=50 Type="text"> Your Name<BR>
-<INPUT NAME="email" Size=50 Type="text"> Your E-Mail Address<BR>
-<INPUT TYPE=TEXT NAME="url">  Your Home page URL(optional)<BR>
-</BR>
-Type What you Want to Say Here<BR>
-<TEXTAREA NAME="comments" ROWS=10 COLS=50></TEXTAREA><BR>
-<INPUT TYPE=submit Value="Sign the book">
-<INPUT TYPE=reset Value="Clear Form">
-</FORM>
-
-<P>     
-</td>
-</tr>
-</table> 
-</body> 
-</html>
+    <form method="post">
+      <table border="1px">
+        <tr>
+          <th>name!</th>
+          <th>message!</th>
+          <th>are you a robot!?</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" name="name" maxlength="140" />
+          </td>
+          <td>
+            <textarea maxlength="400" style="border:0px"name="message" cols="50" rows="10"></textarea>
+          </td>
+          <td>
+            <input type="radio" name="hmm" value="scriz" checked="true">yeah<br>
+            <input type="radio" name="hmm" value="scrop">nope<br>
+          </td>
+        </tr>
+      </table>
+      <input style="font-size:200%" type="submit" value="sign"/>
+    </form>
