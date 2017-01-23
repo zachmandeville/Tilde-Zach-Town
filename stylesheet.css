@@ -1,0 +1,123 @@
+/* Styles for main page */
+	.galactic {
+		 background-image: url("http://68.media.tumblr.com/19b3eb0a9cd986e7a876e79a44907a89/tumblr_inline_n258vwc6Sd1qhwjx8.png");
+		 background-repeat: repeat-x repeat-y;
+		 background-size: contain;
+		 text-align: center;
+		 color: black;
+		 font-size: 20px;
+		 font-family: monospace;
+	}
+	.log{
+		color: #b6b5b5;
+		text-decoration: underline;
+		text-align: right;
+		font-style: italic;
+		font-size: 16px;
+		line-height: 20px;
+		
+	}
+	h1{
+		color: white;
+		line-height: 60px;
+		font-size: 64px;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+	div{
+				width: 800px;
+				margin: 0 auto;
+				padding: 40px;
+			}
+	p{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	
+	.center{
+		text-align: center;
+	}
+	
+	.modest{
+		border-radius: 10px;
+		text-align: left;
+		margin: 20px;
+		padding: 20px;
+		background-color: white;
+		width: 400px;
+		line-height: 5px;
+	}
+/* Font in Links Pages */	
+	.tinyboy{
+		font-size: 10px;
+		font-style: italic;
+		line-height: 0px;
+		margin-bottom: 30px;
+	}
+	
+	.bigboy{
+		margin-top: 10px;
+	}
+/* End of these font settings */
+	
+	.lefty{
+		position: absolute;
+		left: 0px;
+	}
+	
+/* Blog Pages Settings */
+
+	.blogh1{
+		color: black;
+	}
+	.punkin{
+		font-family: monospace;
+		margin: 20px;
+		padding: 20px;
+		text-align: left;
+		background-color: 
+		#f0c4bc;
+	}
+	.pinkin{
+		margin: 20px;
+		padding: 20px;
+		background-color: 
+		#e8a093;
+	}
+	.pankin{
+		margin: 20px;
+		padding: 20px;
+		background-color: 
+		#e98675;
+	}
+	.ponkin{
+		margin: 20px;
+		padding: 20px;
+		background-color: 
+		#e8654d;
+	}
+	.sleek-words{
+		background-color: white;
+	}
+	.sleek-title{
+		color: black;
+		font-size: 30px;
+		text-align: left;
+		line-height: 30px;
+		font-family: monospace;
+	}
+	.img-center {
+			display: block;
+			max-width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.right{
+			text-align: right;
+		}
+		figcaption{
+			font-size: 10px;
+			margin: auto;
+			text-align: center;
+			font-style: italic
+		}
