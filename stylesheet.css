@@ -24,6 +24,9 @@
 		text-align: center;
 		letter-spacing: 1px;
 	}
+	h2{
+		line-height: 30px;
+	}
 	div{
 				width: 800px;
 				margin: 0 auto;
@@ -112,12 +115,12 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.right{
-			text-align: right;
-		}
-		figcaption{
-			font-size: 10px;
-			margin: auto;
-			text-align: center;
-			font-style: italic
-		}
+	.right{
+		text-align: right;
+	}
+	figcaption{
+		font-size: 10px;
+		margin: auto;
+		text-align: center;
+		font-style: italic
+	}
