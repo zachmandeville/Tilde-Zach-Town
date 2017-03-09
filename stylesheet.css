@@ -8,6 +8,14 @@
 		 font-size: 20px;
 		 font-family: monospace;
 	}
+	.starcloud-bg {
+		background-image: url(images/dark-sky.jpg);
+		 background-repeat: repeat-x repeat-y;
+		 background-size: contain;
+		 text-align: center;
+		 color: black;
+		 font-family: monospace;
+	}
 	.log{
 		color: #b6b5b5;
 		text-decoration: underline;
@@ -26,12 +34,16 @@
 	}
 	h2{
 		line-height: 30px;
+		font-size: 32px;
 	}
-	div{
-				width: 800px;
-				margin: 0 auto;
-				padding: 40px;
-			}
+	.white{
+		color: white;
+	}
+	.homediv{
+		width: 800px;
+		margin: 0 auto;
+		padding: 40px;
+	}
 	p{
 		font-size: 20px;
 		line-height: 25px;
@@ -41,13 +53,20 @@
 		text-align: center;
 	}
 	
-	.modest{
+	.modest-white{
 		border-radius: 10px;
 		text-align: left;
 		margin: 20px;
 		padding: 20px;
 		background-color: white;
 		width: 400px;
+		line-height: 5px;
+	}
+	.modest-clear{
+		border-radius: 10px;
+		text-align: left;
+		margin: 20px;
+		padding: 20px;
 		line-height: 5px;
 	}
 /* Font in Links Pages */	
@@ -68,7 +87,7 @@
 		left: 0px;
 	}
 	
-/* Blog Pages Settings */
+/* Writing Pages */
 
 	.blogh1{
 		color: black;
@@ -124,3 +143,32 @@
 		text-align: center;
 		font-style: italic
 	}
+/* Blog Page */
+.stippled{
+	border: white dotted 1px;
+	margin: 20px;
+	}
+.stipple-left{
+	border-left: white dotted 1px;
+}
+.review{
+	font-size: 12px;
+}
+.padded{
+	display: inline-block;
+	padding: 20px;
+}
+.spaced{
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 2px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.caption{
+	color: white;
+	display: block;
+	font-size: 12px;
+	width: 200px;
+	padding: 10px;
+}
