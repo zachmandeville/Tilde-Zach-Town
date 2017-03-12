@@ -93,6 +93,7 @@
 		color: black;
 	}
 	.punkin{
+		width: 800px;
 		font-family: monospace;
 		margin: 20px;
 		padding: 20px;
@@ -101,18 +102,21 @@
 		#f0c4bc;
 	}
 	.pinkin{
+		width: 800px;
 		margin: 20px;
 		padding: 20px;
 		background-color: 
 		#e8a093;
 	}
 	.pankin{
+		width: 800px;
 		margin: 20px;
 		padding: 20px;
 		background-color: 
 		#e98675;
 	}
 	.ponkin{
+		width: 800px;
 		margin: 20px;
 		padding: 20px;
 		background-color: 
@@ -120,6 +124,7 @@
 	}
 	.sleek-words{
 		background-color: white;
+		width: 800px;
 	}
 	.sleek-title{
 		color: black;
