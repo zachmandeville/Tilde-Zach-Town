@@ -93,11 +93,9 @@
 		color: black;
 	}
 	.punkin{
-		width: 800px;
 		font-family: monospace;
 		margin: 20px;
 		padding: 20px;
-		text-align: left;
 		background-color: 
 		#f0c4bc;
 	}
@@ -125,6 +123,8 @@
 	.sleek-words{
 		background-color: white;
 		width: 800px;
+		padding: 20px;
+		margin: 20px;
 	}
 	.sleek-title{
 		color: black;
