@@ -10,11 +10,19 @@
 	}
 	.starcloud-bg {
 		background-image: url(images/dark-sky.jpg);
-		 background-repeat: repeat-x repeat-y;
-		 background-size: contain;
-		 text-align: center;
-		 color: black;
-		 font-family: monospace;
+		background-repeat: repeat-x repeat-y;
+		background-size: contain;
+		text-align: center;
+		color: black;
+		font-family: monospace;
+	}
+	.star-tree-bg{
+		background-image: url(images/star6.gif);
+		background-repeat: repeat-x repeat-y;
+		background-size: contain;
+		text-align: center;
+		color: black;
+		font-family: monospace;
 	}
 	.log{
 		color: #b6b5b5;
@@ -62,12 +70,25 @@
 		width: 400px;
 		line-height: 5px;
 	}
+	.sonic-center{
+		text-align: left;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: white;
+		width: 800px;
+		line-height: 5px;
+	}
 	.modest-clear{
 		border-radius: 10px;
 		text-align: left;
 		margin: 20px;
 		padding: 20px;
 		line-height: 5px;
+	}
+	.bordered{
+		border-bottom: 2px black;
+		border-bottom-style: dotted;
+	</div>
 	}
 /* Font in Links Pages */	
 	.tinyboy{
